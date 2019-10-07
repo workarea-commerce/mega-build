@@ -1,8 +1,5 @@
 name: Build
-on:
-  push
-  schedule:
-    - cron: '0 6,14 * * *'
+on: push
 
 jobs:
   admin_tests:
