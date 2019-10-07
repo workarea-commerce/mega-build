@@ -1,7 +1,10 @@
-name: Build
+name: Edge Build
 on:
   schedule:
     - cron: '0 6,14 * * *'
+  push:
+    branches:
+      - master
 
 jobs:
   admin_tests:
