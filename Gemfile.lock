@@ -69,6 +69,7 @@ GIT
 GIT
   remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-browse-option.git
   revision: fe6ddc63aa18d3cfb7aa5c0b5f687eeeb665519f
+  branch: v2.1-stable
   specs:
     workarea-browse_option (2.1.7)
       workarea (~> 3.x, >= 3.3.x)
@@ -305,7 +306,7 @@ GIT
 
 GIT
   remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea.git
-  revision: e0e189d13865e9852d967563fbbe6cc9eb0cc120
+  revision: cb08f90940b44dc9b18ae2486976205032cd094c
   branch: v3.4-stable
   specs:
     workarea (3.4.18)
@@ -659,7 +660,7 @@ GEM
     method_source (0.9.2)
     mime-types (3.3)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.0904)
+    mime-types-data (3.2019.1009)
     mimemagic (0.3.3)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
