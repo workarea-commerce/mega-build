@@ -1,0 +1,60 @@
+name: Edge Build
+on:
+  schedule:
+    - cron: '0 6,14 * * *'
+  push:
+    branches:
+      - master
+
+jobs:
+  admin_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+      with:
+        command: bundle update && bin/rails workarea:test:admin
+
+  core_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+      with:
+        command: bundle update && bin/rails workarea:test:core
+
+  storefront_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+      with:
+        command: bundle update && bin/rails workarea:test:storefront
+
+  plugins_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+      with:
+        command: bundle update && bin/rails workarea:test:plugins
