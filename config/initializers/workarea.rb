@@ -9,13 +9,13 @@ Workarea.configure do |config|
   }[Rails.env]
 
   config.email_to = {
-    'test'        => "#{config.site_name} <customerservice@example.com>",
+    'test'        => "customerservice@example.com",
     'development' => "#{config.site_name} <customerservice@mega_build.test>",
     'production'  => "#{config.site_name} <customerservice@mega-build.com>" # TODO
   }[Rails.env]
 
   config.email_from =  {
-    'test'        => "#{config.site_name} <noreply@example.com>",
+    'test'        => "noreply@example.com",
     'development' => "#{config.site_name} <noreply@mega_build.test",
     'production'  => "#{config.site_name} <noreply@mega-build.com>" # TODO
   }[Rails.env]

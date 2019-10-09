@@ -202,7 +202,7 @@ GIT
 
 GIT
   remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-reviews.git
-  revision: 2eded21008184a738867e39a608d9a211d385a65
+  revision: d25add2f30c439f49e68d9989a3839c59519bc33
   branch: v3.0-stable
   specs:
     workarea-reviews (3.0.9)
