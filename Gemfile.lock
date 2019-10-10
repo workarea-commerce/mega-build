@@ -76,7 +76,7 @@ GIT
 
 GIT
   remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-content-search.git
-  revision: 267020e1e689aff602aa540aafcc4f37e2fd8d48
+  revision: a731f614eefc2b50d9cd2e34e189ad689d9fd09c
   specs:
     workarea-content_search (1.0.8)
       workarea (~> 3.x)
