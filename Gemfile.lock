@@ -140,7 +140,7 @@ GIT
 GIT
   remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-multi-site.git
   revision: 67ae0e0144e2ead7993e3c42bf78bf31976c9a44
-  branch: master
+  branch: v3.1-stable
   specs:
     workarea-multi_site (3.1.5)
       workarea (~> 3.x, >= 3.4.x)

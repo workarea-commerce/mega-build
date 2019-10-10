@@ -51,7 +51,7 @@ gem 'workarea-address_verification', github: 'workarea-commerce/workarea-address
 gem 'workarea-b2b', github: 'workarea-commerce/workarea-b2b', branch: 'v1.0-stable'
 gem 'workarea-bopus', github: 'workarea-commerce/workarea-bopus', branch: 'v1.0-stable'
 gem 'workarea-data_file_scheduling', github: 'workarea-commerce/workarea-data-file-scheduling', branch: 'master'
-gem 'workarea-multi_site', github: 'workarea-commerce/workarea-multi-site', branch: 'master'
+gem 'workarea-multi_site', github: 'workarea-commerce/workarea-multi-site', branch: 'v3.1-stable'
 gem 'workarea-oms', github: 'workarea-commerce/workarea-oms', branch: 'v5.2-stable'
 gem 'workarea-returns', github: 'workarea-commerce/workarea-returns', branch: 'v1.1-stable'
 gem 'workarea-quick_order', github: 'workarea-commerce/workarea-quick-order', branch: :master
