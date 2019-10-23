@@ -19,6 +19,7 @@ jobs:
     - uses: workarea-commerce/ci/test@v1
       env:
         ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bundle update && bin/rails workarea:test:admin
 
@@ -34,6 +35,7 @@ jobs:
     - uses: workarea-commerce/ci/test@v1
       env:
         ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bundle update && bin/rails workarea:test:core
 
@@ -49,6 +51,7 @@ jobs:
     - uses: workarea-commerce/ci/test@v1
       env:
         ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bundle update && bin/rails workarea:test:storefront
 
@@ -64,5 +67,6 @@ jobs:
     - uses: workarea-commerce/ci/test@v1
       env:
         ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bundle update && bin/rails workarea:test:plugins
