@@ -1,5 +1,5 @@
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-a11y.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-a11y.git
   revision: b6bed6ab9e1669169a2df43aaa78c4348ec7d731
   specs:
     workarea-a11y (1.2.1)
@@ -7,8 +7,8 @@ GIT
       workarea (>= 3.0.0)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-ab-testing.git
-  revision: 99442da922186239cd1df45573d95947b1c4e8a4
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-ab-testing.git
+  revision: e24937cf8ac8806363b00545229ce724d9ac9c36
   branch: master
   specs:
     workarea-ab_testing (2.1.0)
@@ -16,15 +16,15 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-address-verification.git
-  revision: f0db8e9de612c1ec1ee8ff7da30f896d980bd0bf
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-address-verification.git
+  revision: 77c8985b4a0e5fbd241c96e79cf94c49ddf447b5
   branch: master
   specs:
     workarea-address_verification (3.0.1)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-api.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-api.git
   revision: 3cf4b29ac08158d61d7fd95687003676280a0bb9
   branch: v4.4-stable
   specs:
@@ -42,24 +42,24 @@ GIT
       workarea (~> 3.x, >= 3.2.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-b2b.git
-  revision: 469ad979f8910d062ca068a2d5214cc6a57a7d0d
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-b2b.git
+  revision: 174fbe107f9d08dcc9240eebedeeea04a42e699c
   branch: v1.0-stable
   specs:
     workarea-b2b (1.0.3)
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-blog.git
-  revision: b5e766453213bae704203d8688e034fa9d4f0c16
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-blog.git
+  revision: 3c06997054e3922550b5a014f3d6f1b189713b89
   branch: v3.4-stable
   specs:
-    workarea-blog (3.4.8)
+    workarea-blog (3.4.9)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-bopus.git
-  revision: f43da2a2cb07b5ad7d929fbc0aa3180eb9bf665e
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-bopus.git
+  revision: 4a131aa9fa8f9628854fc40d8b9480ad840de8bf
   branch: v1.0-stable
   specs:
     workarea-bopus (1.0.2)
@@ -67,7 +67,7 @@ GIT
       workarea-store_locations (~> 5.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-browse-option.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-browse-option.git
   revision: fe6ddc63aa18d3cfb7aa5c0b5f687eeeb665519f
   branch: v2.1-stable
   specs:
@@ -75,15 +75,15 @@ GIT
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-content-search.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-content-search.git
   revision: a731f614eefc2b50d9cd2e34e189ad689d9fd09c
   specs:
     workarea-content_search (1.0.8)
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-data-file-scheduling.git
-  revision: 768c2e0618fbdaa8dda7b4608f24221a68ee325d
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-data-file-scheduling.git
+  revision: 528534f511408d4317b70df9ee88f36f166100be
   branch: master
   specs:
     workarea-data_file_scheduling (1.1.0)
@@ -91,14 +91,14 @@ GIT
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-email-signup-popup.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-email-signup-popup.git
   revision: c5d039f81c75f25e7fc74b87b5a9a5c32f867a39
   specs:
     workarea-email_signup_popup (2.0.1)
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-gdpr.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-gdpr.git
   revision: 7c0ce07888d3d0286dbc87b4564e02a8931a53be
   branch: v1.0-stable
   specs:
@@ -106,7 +106,7 @@ GIT
       workarea (~> 3.x, >= 3.2.0)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-gift-cards.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-gift-cards.git
   revision: d631270f655fe9015efea90362f034141b28696f
   branch: v3.4-stable
   specs:
@@ -114,7 +114,7 @@ GIT
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-gift-wrapping.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-gift-wrapping.git
   revision: d93b359d8f7a6747d866aca23315b9d922249082
   branch: v1.2-stable
   specs:
@@ -122,7 +122,7 @@ GIT
       workarea (~> 3.x, >= 3.2.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-google-address-autocomplete.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-google-address-autocomplete.git
   revision: 25160ff370483aa783ca5858cade55980e3f7a17
   specs:
     workarea-google_address_autocomplete (4.1.1)
@@ -130,7 +130,7 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-google-analytics.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-google-analytics.git
   revision: 0e4d6718ee9a333e64cba4bc31497c93674c46cd
   branch: v2.1-stable
   specs:
@@ -138,23 +138,23 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-multi-site.git
-  revision: d0b8e660b869c33c3a07f469319d898e91aae0d1
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-multi-site.git
+  revision: e27c7a8804169e292c0de86a8017af2929ac9df7
   branch: v3.1-stable
   specs:
-    workarea-multi_site (3.1.5)
+    workarea-multi_site (3.1.6)
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-oms.git
-  revision: f5ccba8907a7b1f5a57fdb3a90248a2c8919ba65
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-oms.git
+  revision: 2ee9841bb0d3b8a7cf7a6d81b0324f6e60c35044
   branch: v5.2-stable
   specs:
     workarea-oms (5.2.3)
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-package-products.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-package-products.git
   revision: 910ba1398c6b7f1c008e072e5657e548a069cffe
   branch: v3.3-stable
   specs:
@@ -162,14 +162,14 @@ GIT
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-paypal.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-paypal.git
   revision: 36b2678010db704f2e1f6acfbfdbf912829519e4
   specs:
     workarea-paypal (2.0.8)
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-product-quickview.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-product-quickview.git
   revision: ca0b63a76a3917bc80604cf91e4c16f79b263bd1
   branch: v2.0-stable
   specs:
@@ -177,40 +177,40 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-quick-order.git
-  revision: a66cc01e5dcc6c73d9fc7b92afd03b0f00a0f037
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-quick-order.git
+  revision: 2177f1f52cd1fd97876bf706dc8d14563eb7526e
   branch: master
   specs:
     workarea-quick_order (1.0.0)
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-quotes.git
-  revision: e08c54a8c1ada88facc437fc19030afdf148c968
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-quotes.git
+  revision: ab58fc7462066e3c9ce71d70b3ecba1f0d8e13e5
   branch: v1.0-stable
   specs:
     workarea-quotes (1.0.0)
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-returns.git
-  revision: 033a22f19a4688c7fa142c20b580be0c488c4058
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-returns.git
+  revision: 6e93552f52d7786efb944998816f9bcfce05db88
   branch: v1.1-stable
   specs:
     workarea-returns (1.1.2)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-reviews.git
-  revision: 3aaf6845d05d08c91adc24acc33e17007d18ba7f
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-reviews.git
+  revision: 8fc248e236e4b32c791c4fbcdf057fbefe3a6969
   branch: v3.0-stable
   specs:
-    workarea-reviews (3.0.9)
+    workarea-reviews (3.0.10)
       recaptcha (~> 4.3.1)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-save-for-later.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-save-for-later.git
   revision: 5914a658a26ba1d51d453200f06987a3b76e9287
   branch: v1.0-stable
   specs:
@@ -218,8 +218,8 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-sentry.git
-  revision: 776be04d3ea301e46a40edfd01088f0b1dc9d1f2
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-sentry.git
+  revision: 713829cb21969e2403e751512e27cb51c22d7760
   branch: master
   specs:
     workarea-sentry (1.3.3)
@@ -227,7 +227,7 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-share.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-share.git
   revision: 7a182d5adf70877a5b182cfff606e8888f33441f
   branch: v1.2-stable
   specs:
@@ -236,14 +236,14 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-shipping-estimation.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-shipping-estimation.git
   revision: 4fbaf1f937522b7bd6d71f5569a13c5344e8e5c0
   specs:
     workarea-shipping_estimation (1.1.2)
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-sitemaps.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-sitemaps.git
   revision: 409eeffd5d662775b796052681f5c0a9d662002e
   specs:
     workarea-sitemaps (2.1.6)
@@ -251,53 +251,53 @@ GIT
       workarea (~> 3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-split-shipping.git
-  revision: d3377e67ec16748da3a5c98b0d90be5163eaef82
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-split-shipping.git
+  revision: 25b133ccdd18339a94fc34d7a0b0af44b733373d
   branch: v1.2-stable
   specs:
     workarea-split_shipping (1.2.0)
       workarea (~> 3.x, >= 3.2.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-store-locations.git
-  revision: 088423f39c20673c8f417cf97413d677bf2684a6
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-store-locations.git
+  revision: 7557d56665dc296ced400666b4fa244e1e8298ea
   branch: v5.0-stable
   specs:
     workarea-store_locations (5.0.4)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-subscriptions.git
-  revision: 2cc4b902142efe9e69c85212d314b3c9413d5cd3
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-subscriptions.git
+  revision: 1987b0ce300dde4a957dcf0eb24a9b8b5f335087
   branch: v1.2-stable
   specs:
     workarea-subscriptions (1.2.4)
       workarea (~> 3.x, >= 3.4.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-swatches.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-swatches.git
   revision: 497574596b7416af085587211584b4aabf389aff
   branch: v1.0-stable
   specs:
     workarea-swatches (1.0.5)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-variant-list.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-variant-list.git
   revision: 4e7dfab68916bc0c98517a8926a059c2bc8a2650
   specs:
     workarea-variant_list (1.0.2)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-webhooks.git
-  revision: 94a6b0067d2a5a6039359713c47f25d319bb28bd
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-webhooks.git
+  revision: 7f7e04cc9c646c254881367d13197216b16f5116
   branch: master
   specs:
     workarea-webhooks (1.0.0)
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea-wish-lists.git
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea-wish-lists.git
   revision: 18c25115ff41e8f12e795a9d51259037f85eade0
   branch: v3.0-stable
   specs:
@@ -305,19 +305,19 @@ GIT
       workarea (~> 3.x, >= 3.3.x)
 
 GIT
-  remote: https://97e14a4a77ae836470b265d6968429e534a371a6@github.com/workarea-commerce/workarea.git
-  revision: d074618d344c2d46950d24436845e28e00935307
+  remote: https://45985de056130ceacdb455c654b4f355e8a63bd3@github.com/workarea-commerce/workarea.git
+  revision: b3245122e46b8ceb99f76390c690d7bd6e82073c
   branch: v3.4-stable
   specs:
-    workarea (3.4.18)
-      workarea-admin (= 3.4.18)
-      workarea-core (= 3.4.18)
-      workarea-storefront (= 3.4.18)
-      workarea-testing (= 3.4.18)
-    workarea-admin (3.4.18)
-      workarea-core (= 3.4.18)
-      workarea-storefront (= 3.4.18)
-    workarea-core (3.4.18)
+    workarea (3.4.19)
+      workarea-admin (= 3.4.19)
+      workarea-core (= 3.4.19)
+      workarea-storefront (= 3.4.19)
+      workarea-testing (= 3.4.19)
+    workarea-admin (3.4.19)
+      workarea-core (= 3.4.19)
+      workarea-storefront (= 3.4.19)
+    workarea-core (3.4.19)
       active_utils (~> 3.3.1)
       activemerchant (~> 1.52)
       autoprefixer-rails (~> 6.5.1)
@@ -358,7 +358,7 @@ GIT
       local_time (~> 1.0.3)
       lodash-rails (~> 4.17.4)
       logstasher (~> 1.2.2)
-      loofah (~> 2.2.3)
+      loofah (~> 2.3.1)
       measured (>= 2.0)
       minitest (~> 5.10.3, >= 5.10.1)
       money-rails (~> 1.12.0)
@@ -399,9 +399,9 @@ GIT
       waypoints_rails (~> 4.0.1)
       webcomponentsjs-rails (~> 0.7.12)
       wysihtml-rails (~> 0.6.x)
-    workarea-storefront (3.4.18)
-      workarea-core (= 3.4.18)
-    workarea-testing (3.4.18)
+    workarea-storefront (3.4.19)
+      workarea-core (= 3.4.19)
+    workarea-testing (3.4.19)
       capybara (~> 3.18)
       launchy (~> 2.4.3)
       minitest-retry (~> 0.1.5)
@@ -412,7 +412,7 @@ GIT
       vcr (~> 2.9.0)
       webdrivers (~> 3.0)
       webmock (~> 3.5.0)
-      workarea-core (= 3.4.18)
+      workarea-core (= 3.4.19)
 
 GEM
   remote: https://rubygems.org/
@@ -446,7 +446,7 @@ GEM
     activejob (5.2.3)
       activesupport (= 5.2.3)
       globalid (>= 0.3.6)
-    activemerchant (1.99.0)
+    activemerchant (1.100.0)
       activesupport (>= 4.2)
       builder (>= 2.1.2, < 4.0.0)
       i18n (>= 0.6.9)
@@ -473,14 +473,14 @@ GEM
       execjs
     avalanche-rails (1.2.0)
     aws-eventstream (1.0.3)
-    aws-partitions (1.223.0)
-    aws-sdk-core (3.68.1)
+    aws-partitions (1.230.0)
+    aws-sdk-core (3.72.0)
       aws-eventstream (~> 1.0, >= 1.0.2)
-      aws-partitions (~> 1.0)
+      aws-partitions (~> 1, >= 1.228.0)
       aws-sigv4 (~> 1.1)
       jmespath (~> 1.0)
-    aws-sdk-kms (1.24.0)
-      aws-sdk-core (~> 3, >= 3.61.1)
+    aws-sdk-kms (1.25.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-s3 (1.9.1)
       aws-sdk-core (~> 3)
@@ -505,7 +505,7 @@ GEM
     chart-horizontalbar-rails (1.0.4)
     chart-js-rails (0.0.9)
       railties (> 3.1)
-    chartkick (3.2.1)
+    chartkick (3.2.2)
     childprocess (3.0.0)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
@@ -523,7 +523,7 @@ GEM
       unicode_utils (~> 1.4)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    crass (1.0.4)
+    crass (1.0.5)
     css_parser (1.7.0)
       addressable
     dragonfly (1.1.5)
@@ -547,7 +547,7 @@ GEM
     erubi (1.9.0)
     et-orbi (1.2.2)
       tzinfo
-    excon (0.67.0)
+    excon (0.68.0)
     execjs (2.7.0)
     exifr (1.3.6)
     faker (1.8.7)
@@ -647,7 +647,7 @@ GEM
       activesupport (>= 4.0)
       logstash-event (~> 1.2.0)
       request_store
-    loofah (2.2.3)
+    loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -749,8 +749,8 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.2.0)
-      loofah (~> 2.2, >= 2.2.2)
+    rails-html-sanitizer (1.3.0)
+      loofah (~> 2.3)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
@@ -818,7 +818,7 @@ GEM
     selenium-webdriver (3.142.6)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    sentry-raven (2.11.3)
+    sentry-raven (2.12.2)
       faraday (>= 0.7.6, < 1.0)
     serviceworker-rails (0.5.5)
       railties (>= 3.1)
