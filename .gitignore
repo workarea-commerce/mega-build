@@ -21,3 +21,6 @@
 /config/master.key
 
 public/system
+
+
+Gemfile.lock
