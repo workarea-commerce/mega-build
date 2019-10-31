@@ -21,7 +21,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.access_token }}
         RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
-        command: bundle update && bin/rails workarea:test:admin
+        command: bin/rails workarea:test:admin
 
   core_tests:
     runs-on: ubuntu-latest
@@ -37,7 +37,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.access_token }}
         RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
-        command: bundle update && bin/rails workarea:test:core
+        command: bin/rails workarea:test:core
 
   storefront_tests:
     runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.access_token }}
         RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
-        command: bundle update && bin/rails workarea:test:storefront
+        command: bin/rails workarea:test:storefront
 
   plugins_tests:
     runs-on: ubuntu-latest
@@ -69,4 +69,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.access_token }}
         RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
-        command: bundle update && bin/rails workarea:test:plugins
+        command: bin/rails workarea:test:plugins
