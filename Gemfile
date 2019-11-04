@@ -56,7 +56,7 @@ gem 'workarea-oms', github: 'workarea-commerce/workarea-oms', branch: 'v5.2-stab
 gem 'workarea-returns', github: 'workarea-commerce/workarea-returns', branch: 'v1.1-stable'
 gem 'workarea-quick_order', github: 'workarea-commerce/workarea-quick-order', branch: :master
 gem 'workarea-quotes', github: 'workarea-commerce/workarea-quotes', branch: 'v1.0-stable'
-gem 'workarea-sentry', github: 'workarea-commerce/workarea-sentry', branch: 'master'
+gem 'workarea-sentry', github: 'workarea-commerce/workarea-sentry', branch: 'v1.3-stable'
 gem 'workarea-split_shipping', github: 'workarea-commerce/workarea-split-shipping', branch: 'v1.2-stable'
 gem 'workarea-store_locations', github: 'workarea-commerce/workarea-store-locations', branch: 'v5.0-stable'
 gem 'workarea-subscriptions', github: 'workarea-commerce/workarea-subscriptions', branch: 'v1.2-stable'
