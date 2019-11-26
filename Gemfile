@@ -47,7 +47,7 @@ gem 'workarea-variant_list', github: 'workarea-commerce/workarea-variant-list'
 gem 'workarea-wish_lists', github: 'workarea-commerce/workarea-wish-lists', branch: 'v3.0-stable'
 
 gem 'workarea-ab_testing', github: 'workarea-commerce/workarea-ab-testing', branch: 'master'
-gem 'workarea-address_verification', github: 'workarea-commerce/workarea-address-verification', branch: 'master'
+gem 'workarea-address_verification', github: 'workarea-commerce/workarea-address-verification', branch: 'v3.0-stable'
 gem 'workarea-b2b', github: 'workarea-commerce/workarea-b2b', branch: 'v1.0-stable'
 gem 'workarea-bopus', github: 'workarea-commerce/workarea-bopus', branch: 'v1.0-stable'
 gem 'workarea-data_file_scheduling', github: 'workarea-commerce/workarea-data-file-scheduling', branch: 'master'
