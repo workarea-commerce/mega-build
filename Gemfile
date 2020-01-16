@@ -21,6 +21,9 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+gem 'rails-decorators', github: 'workarea-commerce/rails-decorators'
+gem 'teaspoon', github: 'jtapia/teaspoon', branch: 'chore/update-rails-6'
+
 gem 'workarea', github: 'workarea-commerce/workarea'
 
 gem 'workarea-a11y', github: 'workarea-commerce/workarea-a11y'
