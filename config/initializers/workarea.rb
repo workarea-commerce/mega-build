@@ -20,3 +20,11 @@ Workarea.configure do |config|
     'production'  => "#{config.site_name} <noreply@mega-build.com>" # TODO
   }[Rails.env]
 end
+
+Workarea::Site.add_site do |config|
+  config.site_name = 'Vanilla'
+end
+
+Workarea::Site.add_site do |config|
+  config.site_name = 'Chocolate'
+end
