@@ -21,10 +21,6 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
-# Lock down BSON gem, there's a bug in 4.8.0. This can be removed once this PR is released:
-# https://github.com/mongodb/bson-ruby/pull/190
-gem 'bson', '4.7.1'
-
 gem 'workarea', github: 'workarea-commerce/workarea', branch: 'v3.5-stable'
 
 gem 'workarea-a11y', github: 'workarea-commerce/workarea-a11y'
