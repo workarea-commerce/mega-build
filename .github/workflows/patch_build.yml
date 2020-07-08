@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - patch
+      - faster
 
 env:
   BUNDLE_PATH: ./vendor/bundle
