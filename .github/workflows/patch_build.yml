@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - patch
+env:
+  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+  RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
 
 jobs:
   admin_tests:
@@ -17,9 +20,6 @@ jobs:
       with:
         ruby-version: 2.6.x
     - uses: workarea-commerce/ci/test@v1
-      env:
-        ACCESS_TOKEN: ${{ secrets.access_token }}
-        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bin/rails workarea:test:admin
 
@@ -33,9 +33,6 @@ jobs:
       with:
         ruby-version: 2.6.x
     - uses: workarea-commerce/ci/test@v1
-      env:
-        ACCESS_TOKEN: ${{ secrets.access_token }}
-        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bin/rails workarea:test:core
 
@@ -49,9 +46,6 @@ jobs:
       with:
         ruby-version: 2.6.x
     - uses: workarea-commerce/ci/test@v1
-      env:
-        ACCESS_TOKEN: ${{ secrets.access_token }}
-        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bin/rails workarea:test:storefront
 
@@ -65,8 +59,5 @@ jobs:
       with:
         ruby-version: 2.6.x
     - uses: workarea-commerce/ci/test@v1
-      env:
-        ACCESS_TOKEN: ${{ secrets.access_token }}
-        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
       with:
         command: bin/rails workarea:test:plugins
