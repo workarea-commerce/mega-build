@@ -1,5 +1,6 @@
 name: Site Builder Build
 on:
+  workflow_dispatch:
   push:
     branches:
       - site-builder
