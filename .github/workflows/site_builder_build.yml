@@ -1,0 +1,71 @@
+name: Site Builder Build
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - site-builder
+
+jobs:
+  admin_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: site-builder
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
+      with:
+        command: bin/rails workarea:test:admin
+
+  core_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: site-builder
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
+      with:
+        command: bin/rails workarea:test:core
+
+  storefront_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: site-builder
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
+      with:
+        command: bin/rails workarea:test:storefront
+
+  plugins_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: site-builder
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - uses: workarea-commerce/ci/test@v1
+      env:
+        ACCESS_TOKEN: ${{ secrets.access_token }}
+        RAILS_MASTER_KEY: ${{ secrets.rails_master_key }}
+      with:
+        command: bin/rails workarea:test:plugins
