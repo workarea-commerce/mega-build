@@ -1,5 +1,6 @@
 name: Edge Build
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 10,18 * * 1-5'
   push:
