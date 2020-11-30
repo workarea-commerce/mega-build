@@ -25,6 +25,7 @@ gem 'fog-aws', '3.6.3'
 
 gem 'workarea', github: 'workarea-commerce/workarea', branch: 'v3.5-stable'
 gem 'workarea-commerce_cloud', github: 'workarea-commerce/workarea-commerce-cloud'
+gem 'workarea-sitebuilder-services', github: 'workarea-commerce/sitebuilder-certificate-service', glob: 'dist/ruby/workarea-sitebuilder-services/*.gemspec'
 gem 'workarea-site_builder', github: 'workarea-commerce/workarea-site-builder', branch: 'feature/SITEBUILDER-69-plugin-support'
 
 gem 'workarea-api', github: 'workarea-commerce/workarea-api', branch: 'v4.5-stable'
